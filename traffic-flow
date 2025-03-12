@@ -1,0 +1,7 @@
+CloudFront caches and serves static content from S3, reducing latency for global users.
+Elastic Load Balancer (ELB) distributes incoming traffic to EC2 instances deployed in an Auto Scaling Group.
+Auto Scaling automatically adjusts the number of EC2 instances based on traffic demands, ensuring cost-efficient scalability.
+RDS with Read Replicas handles the database workload and scales read operations.
+S3 stores static assets, which are served globally via CloudFront.
+
+This architecture is designed to provide a seamless user experience with minimal downtime and quick content delivery, while ensuring the application can handle varying traffic loads.
