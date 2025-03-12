@@ -13,7 +13,8 @@ The architecture utilizes AWS services like:
 - **Auto Scaling** for dynamic adjustment of EC2 instances based on traffic
 - **RDS Read Replicas** for scaling database reads
 - **S3** for serving static assets
-
+  
+![Image](https://github.com/user-attachments/assets/2141bafc-6a6e-49ef-8de9-10eca399f94b)
 
 ## Prerequisites:
 - An AWS account
